@@ -1,7 +1,7 @@
 # Civ V Tier Randomizer
  Short program to randomize human player civilizations taking into account player skill level for Civilization V: Complete Edition
 
- The program will output a primary pick as well as a backup in-case the user wants to skip certain civilizations for certain players.
+ The program will output a primary pick as well as a backup in-case the user wants to skip certain civilizations for certain players. No Primary OR Backup civilizations will be shared by any player.
 
  The code uses a slightly modified tier list from here: https://gaminggorilla.com/civ-5-tier-list/
 
