@@ -3,12 +3,12 @@ from random import randint
 
 # based on https://gaminggorilla.com/civ-5-tier-list/ w/ Iroquois moved to F tier
 tier_map = {
-    'S': {'Poland', 'Egypt', 'Huns', 'England', 'Korea'},
-    'A': {'Persia', 'Babylon', 'Arabia', 'Inca', 'China', 'Austria', 'Celts', 'Siam', 'Zulu', 'Maya'},
-    'B': {'Aztec', 'Greece', 'America', 'Russia', 'Ethiopia', 'Spain'},
-    'C': {'Mongolia', 'Songhai', 'Morocco', 'India', 'Shoshone', 'Byzantium', 'Denmark', 'Germany'},
-    'D': {'Indonesia', 'Brazil', 'Portugal', 'Netherlands', 'Sweden', 'Ottomans', 'Rome', 'Japan'},
-    'F': {'Assyria', 'France', 'Polynesia', 'Carthage', 'Venice', 'Iroquois'}
+    'S': {'Korea', 'Poland'},
+    'A': {'Babylon', 'Maya', 'Inca', 'Persia', 'England', 'Arabia', 'Egypt', 'Huns'},
+    'B': {'China', 'Ethiopia','Shoshone', 'Aztecs', 'Spain', 'Zulus', 'Russia', 'Celts', 'Siam'},
+    'C': {'Greece', 'Austria', 'Germany', 'Mongolia', 'Songhai', 'Brazil', 'America', 'Rome', 'Morroco', 'Sweden', 'India'},
+    'D': {'Indonesia', 'Denmark', 'Netherlands', 'Portugal', 'Byzantium', 'Ottomans', 'Assyria', 'Carthage', 'Japan', 'Polynesia'},
+    'F': {'France', 'Venice', 'Iroquois'}
 }
 
 table_format = "{:<12} {:<12} {:<12}"

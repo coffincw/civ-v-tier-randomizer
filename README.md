@@ -3,9 +3,11 @@
 
  The program will output a primary pick as well as a backup in-case the user wants to skip certain civilizations for certain players. No Primary OR Backup civilizations will be shared by any player.
 
- The code uses a slightly modified tier list from here: https://gaminggorilla.com/civ-5-tier-list/
+ The code uses a tier list made from the combination of multiple online tier lists. Here is a visualization:
 
- The only change is moving the Iroquois from LOL-tier to F tier.
+ ![Tier Visualization](media/tier-visualization.png)
+
+ Credit: Roger
 
 ## How to Run
  The program is run by passing the configuration via a command line argument. The single argument should be a pipe separated list of player/tier definition. 
